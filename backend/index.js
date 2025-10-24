@@ -32,17 +32,30 @@ app.use(
   })
 );
 
+// Root route - this will fix the "Cannot GET /" error
+app.get("/", (req, res) => {
+  res.json({
+    message: "Blog App Backend API is running successfully!",
+    status: "Connected",
+    endpoints: {
+      users: "/api/users",
+      blogs: "/api/blogs"
+    }
+  });
+});
+
 // DB Code
 try {
   mongoose.connect(MONOG_URL);
   console.log("Connected to MongoDB");
 } catch (error) {
-  console.log(error);
+  console.log("MongoDB connection error:", error);
 }
 
 // defining routes
 app.use("/api/users", userRoute);
 app.use("/api/blogs", blogRoute);
+
 // Cloudinary
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
