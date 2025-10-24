@@ -11,7 +11,7 @@ import cors from "cors";
 const app = express();
 dotenv.config();
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 const MONOGO_URL = process.env.MONOG_URI;
 
 //middleware
