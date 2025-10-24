@@ -238,9 +238,9 @@ This project is licensed under the ISC License.
 
 **Ram Tichkule** - Full Stack Developer
 
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
+- Portfolio: [port5olio.netlify.app]
+- LinkedIn: [Raam Tichkule]
+- GitHub: [https://github.com/Raam751]
 
 ## 🙏 Acknowledgments
 
