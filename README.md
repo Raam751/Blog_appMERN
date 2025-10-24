@@ -4,7 +4,7 @@ A modern, responsive blog platform built with the MERN stack featuring user auth
 
 ## 🌟 Live Demo
 - **Frontend**: [https://blog-app-mern-1mt5.vercel.app/](https://blog-app-mern-1mt5.vercel.app/)
-- **Backend API**: Hosted on Render
+- **Backend API**: Hosted on Render [https://blog-appmern.onrender.com]
 
 ## 📸 Features
 
