@@ -3,7 +3,7 @@
 A modern, responsive blog platform built with the MERN stack featuring user authentication, admin dashboard, and dynamic content management.
 
 ## 🌟 Live Demo
-- **Frontend**: [https://blog-app-mern-1mt5.vercel.app/](https://blog-app-mern-1mt5.vercel.app/)
+- **Frontend**: [https://blog-app-mern-1mt5.vercel.app/](https://blog-app-yt.vercel.app)
 - **Backend API**: Hosted on Render
 
 ## 📸 Features
